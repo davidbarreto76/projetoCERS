@@ -1,6 +1,75 @@
+body {
+  background: #e3f6f5;
+  font-family: calibri, sans-serif; }
+
 .scrollSpySite {
   position: relative;
   overflow: auto;
   height: 280px; }
+
+.nav-link {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal; }
+
+.tx-carousel {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-style: italic; }
+
+.tx-modal {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700; }
+
+.tx-legenda-cab {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: italic;
+  font-size: 46px;
+  font-weight: bold;
+  color: #272643;
+  width: 100%;
+  padding-right: 40px;
+  line-height: 46px; }
+
+.tx-legenda-nome {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 21px;
+  color: #272643;
+  width: 100%;
+  padding-right: 60px; }
+
+.logo-img {
+  width: 250px; }
+
+.novoTX1 {
+  font-size: 36px; }
+
+.novoTX2 {
+  font-size: 16px; }
+
+.novoTX3 {
+  font-size: 11px; }
+
+.opacidade {
+  opacity: 0.8; }
+
+.bloco-gradiente {
+  height: 2px;
+  width: 290px;
+  display: block;
+  float: left;
+  margin-top: 30px; }
+
+.tx-legenda-titulo {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: italic;
+  font-size: 46px;
+  font-weight: bold;
+  color: #272643; }
+
+.dpoint {
+  cursor: hand; }
+
+.dpoint:hover {
+  cursor: hand; }
 
 /*# sourceMappingURL=style.css.map */

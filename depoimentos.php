@@ -1,53 +1,94 @@
 <?php include "header.php"; ?>
 
-    <div id="carouselSite" class="carousel slide pl-0 pr-0 float-lg-left col-12 col-lg-8" data-ride="carousel">
+    <div class="row container px-0 mx-0 pb-2 float-lg-left col-12 col-lg-8">
+      <img src="img/img-topo.png" class="ml-0 mb-lg-2 mr-0 pl-0 pr-0 img-fluid d-block" />
+      <img src="img/linha-gradiente.png" class="bloco-gradiente mx-auto" />
+      <div class="tx-legenda-titulo text-center mb-0 float-left px-sm-0 pt-0 mt-0 col-lg-4 col-md-12">Serviços</div>
+      <img src="img/linha-gradiente.png" class="bloco-gradiente mx-auto" />
+    </div>
+    <div class="row col-12 col-lg-8 px-0 mx-0">
 
-      <ol class="carousel-indicators">
-        <li data-target="carouselSite" data-slide-to="0" class="active"></li>
-        <li data-target="carouselSite" data-slide-to="1"></li>
-        <li data-target="carouselSite" data-slide-to="2"></li>
-      </ol>
-      
-      <div class="carousel-inner">
+      <div class="col-12 col-lg-4 my-4">
+        <div class="col-12 text-center">
+                            
+          <a href="#" class="card-link dpoint" data-toggle="modal" data-target="#imgModal4">
 
-        <div class="carousel-item active">
-          <img src="img/slide-01.jpg" class="img-fluid d-block" />
-          <div class="carousel-caption d-none d-md-block text-white text-left bg-black px-4 opacidade">
-            <h1 class="tx-carousel">Tecnologia em<br />Design de Interação</h1>
-          </div>
+            <img src="img/proj-01p.jpg" alt="Projeto 1" />
+
+          </a>
+          <h5 class="tx-modal mt-2">Maranara Pub</h5>
         </div>
+      </div>
 
-        <div class="carousel-item">
-          <img src="img/slide-02.jpg" class="img-fluid d-block" />
-          <div class="carousel-caption d-none d-md-block text-white text-left bg-black px-4 opacidade">
-            <h1 class="tx-carousel">Inovação a serviço<br />da interatividade</h1>
-          </div>
-        </div>
+      <div class="col-12 col-lg-4 my-4">
+        <div class="col-12 text-center">
+                            
+          <a href="#" class="card-link dpoint" data-toggle="modal" data-target="#imgModal5">
 
-        <div class="carousel-item">
-          <img src="img/slide-03.jpg" class="img-fluid d-block" />
-          <div class="carousel-caption d-none d-md-block text-white text-left bg-black px-4 opacidade">
-            <h1 class="tx-carousel">Práticas em<br />ambientes colaborativos</h1>
-          </div>
+            <img src="img/proj-02p.jpg" alt="Projeto 2" />
+
+          </a> 
+          <h5 class="tx-modal mt-2">The Sturns Restaurant</h5>
+
         </div>
 
       </div>
 
-      <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-        <span class="sr-only">Anterior</span>
-      </a>
+      <div class="col-12 col-lg-4 my-4">
+        <div class="col-12 text-center">
+              
+          <a href="#" class="card-link dpoint" data-toggle="modal" data-target="#imgModal6">
 
-      <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-        <span class="sr-only">Próximo</span>
-      </a>
+            <img src="img/proj-03p.jpg" alt="Projeto 3" />
 
-    </div>
+          </a>    
+          <h5 class="tx-modal mt-2">La Monde Spa</h5>          
+          
+        </div>
 
-    <div class="row container pl-0 pr-0 float-lg-left col-12 col-lg-8">
-        <p class="tx-legenda-cab text-right mt-4 pt-4 mb-0">"Empresa Líder de mercado!"</p>
-        <p class="tx-legenda-nome text-right my-0">- Juliana Santos, Web Designer</p>
+      </div>
+
+
+
+      <div class="col-12 col-lg-4 my-4">
+        <div class="col-12 text-center">
+                            
+          <a href="#" class="card-link dpoint" data-toggle="modal" data-target="#imgModal7">
+
+            <img src="img/proj-04p.jpg" alt="Projeto 4" />
+
+          </a>
+          <h5 class="tx-modal mt-2">River Night Club</h5>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4 my-4">
+        <div class="col-12 text-center">
+                            
+          <a href="#" class="card-link dpoint" data-toggle="modal" data-target="#imgModal8">
+
+            <img src="img/proj-05p.jpg" alt="Projeto 5" />
+
+          </a> 
+          <h5 class="tx-modal mt-2">Waves House</h5>
+
+        </div>
+
+      </div>
+
+      <div class="col-12 col-lg-4 my-4">
+        <div class="col-12 text-center">
+              
+          <a href="#" class="card-link dpoint" data-toggle="modal" data-target="#imgModal9">
+
+            <img src="img/proj-06p.jpg" alt="Projeto 6" />
+
+          </a>    
+          <h5 class="tx-modal mt-2">Segovia Music Studio</h5>          
+          
+        </div>
+
+      </div>
     </div>
 
     <!--<div class="container">
@@ -233,9 +274,7 @@
                     
                     <div class="col-sm-6">
                       
-                      <div class="embed-responsive embed-responsive-16by9">
-                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tBRqx3HQG0o"></iframe>                      
-                      </div>
+                      <img >
                     </div>
 
                     <div class="col-sm-6">
